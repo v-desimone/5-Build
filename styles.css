@@ -114,9 +114,12 @@ footer {
         grid-column: 1/-1;
     }
     /* target the nav and display it flex, spaceed around */
-    nav {
+    nav, nav ul {
         display: flex;
         justify-content: space-around;
+    }
+    nav ul {
+        flex: 1;
     }
     /* target the .card-row to display flex */
     .card-row {
